@@ -4,4 +4,4 @@ folium
 requests
 geopy
 mysql
-gunicorne
+gunicorn
