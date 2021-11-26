@@ -75,7 +75,7 @@ def calcul():
     return render_template('trip.html', result=result, list2=list2, temps=temps, map=map._repr_html_())
     #latStart=latStart, lonStart=lonStart, latEnd=latEnd, lonEnd=lonEnd
     
-if __name__ == "__main__":
-    app.run(port=80)
+# if __name__ == "__main__":
+#     app.run(port=80)
 
 
