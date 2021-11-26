@@ -3,5 +3,5 @@ zeep
 folium
 requests
 geopy
-mysql
+mysql.connector
 gunicorn
