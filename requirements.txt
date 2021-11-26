@@ -1,7 +1,0 @@
-flask
-zeep
-folium
-requests
-geopy
-mysql.connector
-gunicorn

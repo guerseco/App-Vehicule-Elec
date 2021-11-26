@@ -19,13 +19,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
  
-    <h1>Trajet Véhicule Electrique</h1>
+    <h1 style="text-align:center">Trajet Véhicule Electrique</h1>
     <br/>
-    <h1>Votre trajet</h1>
+    
+    <h1 style="text-align:center">Votre trajet</h1>
     <br/>
-    <div class="form-group">
+    <div class="form-group" style="margin-left:20%;margin-right:20%">
         <form action="http://localhost:5000/calcul" method="post">
-        
+        <div style="margin=10%">
         <label>Voiture :</label>
         <select class="form-group form-control" name="id">
         {% for voiture in car %}
@@ -37,7 +38,7 @@
             <input class="form-control" id="rue1" name="rue1">
         </div>
         <div class="form-group w-30">
-            <label>Nom de la voie :</label>
+            <label>Nom de la voie :</label>
             <input class="form-control" id="voie1" name="voie1">
         </div>
         <div class="form-group w-30">
@@ -56,10 +57,11 @@
             <label>Ville :</label>
             <input class="form-control" id="ville2" name="ville2"></input>
         </div>
-        <div class="form-group w-30">
+        <div class="form-group w-30" style="text-align:center">
             <button type="submit" class="btn btn-primary">Calculer</button>
        </div>
         </div>
+         </div>
         </div>
        </form>
     </body>
