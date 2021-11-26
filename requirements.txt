@@ -1,0 +1,8 @@
+flask
+zeep
+folium
+requests
+math
+geopy.geocoders
+mysql.connector
+gunicorne
