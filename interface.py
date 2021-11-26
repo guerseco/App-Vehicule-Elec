@@ -4,9 +4,6 @@ import folium
 import requests
 from db import get_voiture, get_autonomie, get_tempsRecharge
 from math import *
-import osmnx as ox
-import networkx as nx
-
 
 app = Flask(__name__)
     
