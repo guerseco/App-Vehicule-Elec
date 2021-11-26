@@ -2,7 +2,6 @@ flask
 zeep
 folium
 requests
-math
-geopy.geocoders
-mysql.connector
+geopy
+mysql
 gunicorne
